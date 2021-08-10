@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb: Vacation Rentals, Cabins, Beach Houses, Unique Homes & Experiences</title>
+    <script src="https://kit.fontawesome.com/6f3712734c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../public/css/LogIn.css" />
+</head>
+
+<body>
+    {{> navBar}}
+    <div class="bg"></div>
+    <section id="form-outside">
+        <form id="form" method="POST" action="login">
+            <h1>Welcome {{t.fName}} {{t.lName}} to the Dashboard</h1>
+            <div id="divButton">
+                 <a href="./logout" id="findButton">Logout</a>
+            </div>
+        </form>
+    </section>
+    {{> footer}}
+</body>
+
+</html>

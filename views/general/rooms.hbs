@@ -1,0 +1,193 @@
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Airbnb: Vacation Rentals, Cabins, Beach Houses, Unique Homes & Experiences</title>
+  <link rel="stylesheet" type="text/css" href="../public/css/RoomListingPage.css" />
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" />
+  <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+  <script src="https://kit.fontawesome.com/6f3712734c.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+  <!--NAVIGATION BAR-->
+  {{> navBar}}
+  <!--WEBSITE MOTO-->
+  <div id="moto-wrapper">
+    <div class="row">
+      <h1 id="moto">
+        <span>Airbnb</span>
+        <br />
+        Book unique homes and
+        <br />
+        experience a city like a
+        <br />
+        local.
+      </h1>
+    </div>
+  </div>
+  <div class="row">
+    <div id="tab-navigation-wrapper">
+      {{!-- <ul>
+        <li>
+          <a href="#" class="active">Toronto</a>
+        </li>
+        <li>
+          <a href="#">Vancouver</a>
+        </li>
+        <li>
+          <a href="#">Hamilton</a>
+        </li>
+        <li>
+          <a href="#">Calgary</a>
+        </li>
+      </ul> --}}
+    </div>
+  </div>
+  <!--DISPLAY SLIDERS-->
+  <div id="display-sliders-wrapper">
+    <div class="row">
+      <!--JUST BOOKED-->
+      <div class="clearfix">
+        <h3 class="ds-title">Stays in Ontario</h3>
+        <a href="javascript:void(0)" class="ds-title-see-all">See all
+          <i class="ion-chevron-right"></i></a>
+      </div>
+      <section id="room1">
+        <div id="figure1">
+          <img src="{{someData.image}}" alt="figure1" />
+          <h6>ENTIRE LOFT.TORONTO</h6>
+          <h3>luxury apartment</h3>
+          <h4>120 CAD/night</h4>
+          <h5>luxury apartment in Toronto</h5>
+          <p><i class="fas fa-star fa-xs" aria-hidden="true"></i>4.89(545)</p>
+        </div>
+        <div id="figure1">
+          <img src="/images/pexels-alexandr-podvalny-1170686.jpg" alt="figure1" />
+          <h6>ENTIRE LOFT.TORONTO</h6>
+          <h3>Montreal Hotel</h3>
+          <h4>150 CAD/night</h4>
+          <h5>Cozy Hotel in Montreal</h5>
+          <p><i class="fas fa-star fa-xs" aria-hidden="true"></i>4.89(545)</p>
+        </div>
+        <div id="figure1">
+          <img src="/images/camilla-frederiksen-JAdUfyXBn0M-unsplash.jpg" alt="figure1" />
+          <h6>ENTIRE LOFT.TORONTO</h6>
+          <h3>Seneca Hotel</h3>
+          <h4>170 CAD/night</h4>
+          <h5>Hotel in College</h5>
+          <p><i class="fas fa-star fa-xs" aria-hidden="true"></i>4.89(545)</p>
+        </div>
+        <div id="figure1">
+          <img src="/images/pexels-alex-1732414.jpg" alt="figure1" />
+          <h6>ENTIRE LOFT.TORONTO</h6>
+          <h3>Vancouver Hotel</h3>
+          <h4>200 CAD/night</h4>
+          <h5>Downtown in Vancouver</h5>
+          <p><i class="fas fa-star fa-xs" aria-hidden="true"></i>4.89(545)</p>
+        </div>
+        <div id="figure1">
+          <!-- <img src="../img/figure1.jpg" alt="figure1">-->
+          <img src="/images/pexels-asad-photo-maldives-1268871.jpg" alt="figure1" />
+          <h6>ENTIRE LOFT.TORONTO</h6>
+
+          <!--French retro apartment near Sheppard-->
+          <h3>Quebec aprtment</h3>
+          <h4>110 CAD/night</h4>
+          <h5>Cozy apartment in Quebec</h5>
+          <p><i class="fas fa-star fa-xs" aria-hidden="true"></i>4.89(545)</p>
+        </div>
+
+        <div id="figure1">
+          <!-- <img src="../img/figure1.jpg" alt="figure1">-->
+          <img src="/images/pexels-alexandr-podvalny-1170686.jpg" alt="figure1" />
+          <h6>ENTIRE LOFT.TORONTO</h6>
+
+          <!--French retro apartment near Sheppard-->
+          <h3>Nova Sotia Hotel</h3>
+          <h4>180 CAD/night</h4>
+          <h5>Near Waterfront</h5>
+          <p><i class="fas fa-star fa-xs" aria-hidden="true"></i>4.89(545)</p>
+        </div>
+      </section>
+
+      <section id="room1">
+        <div id="figure1">
+          <!-- <img src="../img/figure1.jpg" alt="figure1">-->
+          <img src="{{someData.image}}" alt="figure1" />
+          <h6>ENTIRE LOFT.TORONTO</h6>
+
+          <!--French retro apartment near Sheppard-->
+          <h3>luxury apartment</h3>
+          <h4>120 CAD/night</h4>
+          <h5>luxury apartment in Toronto</h5>
+          <p><i class="fas fa-star fa-xs" aria-hidden="true"></i>4.89(545)</p>
+        </div>
+
+        <div id="figure1">
+          <!-- <img src="../img/figure1.jpg" alt="figure1">-->
+          <img src="/images/pexels-alexandr-podvalny-1170686.jpg" alt="figure1" />
+          <h6>ENTIRE LOFT.TORONTO</h6>
+
+          <!--French retro apartment near Sheppard-->
+          <h3>Montreal Hotel</h3>
+          <h4>150 CAD/night</h4>
+          <h5>Cozy Hotel in Montreal</h5>
+          <p><i class="fas fa-star fa-xs" aria-hidden="true"></i>4.89(545)</p>
+        </div>
+
+        <div id="figure1">
+          <!-- <img src="../img/figure1.jpg" alt="figure1">-->
+          <img src="/images/camilla-frederiksen-JAdUfyXBn0M-unsplash.jpg" alt="figure1" />
+          <h6>ENTIRE LOFT.TORONTO</h6>
+
+          <!--French retro apartment near Sheppard-->
+          <h3>Seneca Hotel</h3>
+          <h4>170 CAD/night</h4>
+          <h5>Hotel in College</h5>
+          <p><i class="fas fa-star fa-xs" aria-hidden="true"></i>4.89(545)</p>
+        </div>
+
+        <div id="figure1">
+          <!-- <img src="../img/figure1.jpg" alt="figure1">-->
+          <img src="/images/pexels-alex-1732414.jpg" alt="figure1" />
+          <h6>ENTIRE LOFT.TORONTO</h6>
+
+          <!--French retro apartment near Sheppard-->
+          <h3>Vancouver Hotel</h3>
+          <h4>200 CAD/night</h4>
+          <h5>Downtown in Vancouver</h5>
+          <p><i class="fas fa-star fa-xs" aria-hidden="true"></i>4.89(545)</p>
+        </div>
+
+        <div id="figure1">
+          <!-- <img src="../img/figure1.jpg" alt="figure1">-->
+          <img src="/images/pexels-asad-photo-maldives-1268871.jpg" alt="figure1" />
+          <h6>ENTIRE LOFT.TORONTO</h6>
+
+          <!--French retro apartment near Sheppard-->
+          <h3>Quebec aprtment</h3>
+          <h4>110 CAD/night</h4>
+          <h5>Cozy apartment in Quebec</h5>
+          <p><i class="fas fa-star fa-xs" aria-hidden="true"></i>4.89(545)</p>
+        </div>
+
+        <div id="figure1">
+          <!-- <img src="../img/figure1.jpg" alt="figure1">-->
+          <img src="/images/pexels-alexandr-podvalny-1170686.jpg" alt="figure1" />
+          <h6>ENTIRE LOFT.TORONTO</h6>
+
+          <!--French retro apartment near Sheppard-->
+          <h3>Nova Sotia Hotel</h3>
+          <h4>180 CAD/night</h4>
+          <h5>Near Waterfront</h5>
+          <p><i class="fas fa-star fa-xs" aria-hidden="true"></i>4.89(545)</p>
+        </div>
+      </section>
+      <div class="row">
+        {{> footer}}
+      </div>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Airbnb: Vacation Rentals, Cabins, Beach Houses, Unique Homes & Experiences</title>
+  <script src="https://kit.fontawesome.com/6f3712734c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../public/css/HomePage.css" />
+</head>
+
+<body>
+  {{> navBar}}
+  <div class="bg"></div>
+  <h1>Book unique places to stay and things to do.</h1>
+  <br />
+
+  <section id="form-outside">
+    <form id="form" method="POST" action="/room/search">
+      <h1>Find your next stay.</h1>
+      <label>WHERE</label>
+      <br>
+      <select class="select" name="location">
+        <option value="">Please select a city</option>
+        <option value="Toronto">Toronto</option>
+        <option value="Banff">Banff</option>
+        <option value="Vancouver">Vancouver</option>
+        <option value="Winnipeg">Winnipeg</option>
+      </select>
+      <br>
+      <label>CHECK-IN</label>
+      <br>
+      <input class="input" type="date" name="checkIn">
+      <br>
+      <label>CHECK-OUT</label>
+      <br>
+      <input class="input" type="date" name="checkOut">
+      <br>
+      <label>GUESTS</label>
+      <br>
+      <select class="select" name="guest">
+        <option value="1">1 guest</option>
+        <option value="2">2 guests</option>
+        <option value="3">3 guests</option>
+        <option value="4">4 guests</option>
+        <option value="5">5 guests</option>
+      </select>
+      <br>
+      <div id="divButton">
+        <input type="submit" id="findButton" value="Find">
+      </div>
+    </form>
+  </section>
+  <div class="row">
+    {{> footer}}
+  </div>
+</body>
+</html>

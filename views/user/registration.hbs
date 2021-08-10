@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="../public/css/RegistrationPage.css">
+  <script src="https://kit.fontawesome.com/6f3712734c.js" crossorigin="anonymous"></script>
+  <title>Airbnb: Vacation Rentals, Cabins, Beach Houses, Unique Homes & Experiences</title>
+</head>
+
+<body>
+  {{#if user}}
+  {{> navBar user='true'}}
+  {{else}}
+  {{> navBar user=''}}
+  {{/if}}
+  <div id="registration">
+    <form id="registrationForm" action="registration" method="POST">
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <h1 class="signup">Sign Up</h1>
+              {{#each messages}}
+              <div class="errors">
+                {{this}}
+              </div>
+              {{/each}}
+              <input style="width: 100%" id="email" type="email" name="email" placeholder="Email address" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input style="width: 100%" id="firstname" type="text" name="firstname" placeholder="First name" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input style="width: 100%" id="lastname" type="text" name="lastname" placeholder="Last name" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input style="width: 100%" id="password" type="password" name="password"
+                placeholder="Create a Password" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <small>We'll send you marketing promotions, special offers,
+                inspiration, and policy updates via email.</small>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="submit" id="submit" value="Submit" />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </div>
+  <div class="row">
+    {{> footer}}
+  </div>
+</body>
+
+</html>

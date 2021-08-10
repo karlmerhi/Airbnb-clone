@@ -1,0 +1,30 @@
+<!--NAVIGATION BAR-->
+<div id="NavBar">
+  <nav>
+    <ul>
+      <a href="/">
+        <span class="fab fa-airbnb"></span>
+      </a>
+      <li class="logo">Airbnb</li>
+      <div class="items">
+        {{user}}
+        <li><a href="/">Home</a></li>
+        <li><a href="/rooms">Rooms</a></li>
+        {{#if user}}
+          <li><a href="./registration">Registration</a></li>
+          <li><a href="./logIn">Login</a></li>
+        {{else}}
+          <li><a href="user/registration">Registration</a></li>
+          <li><a href="user/logIn">Login</a></li>
+        {{/if}}
+      </div>
+      <li class="search-icon">
+        <input type="search" placeholder="Search" />
+        <label class="icon">
+          <span class="fas fa-search"></span>
+        </label>
+      </li>
+    </ul>
+  </nav>
+</div>
+<!--TAB NAVIGATION-->
