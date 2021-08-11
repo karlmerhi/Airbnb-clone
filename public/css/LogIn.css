@@ -285,6 +285,7 @@ main {
 }
 #right-copyright-footer ul li a {
   text-decoration: none;
+  color: grey;
 }
 #right-copyright-footer i {
   float: right;

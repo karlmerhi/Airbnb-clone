@@ -3,6 +3,9 @@
   clear: both;
   display: table;
 }
+body{
+  margin: 0px;
+}
 .bg {
   background: url(/public/images/pexels-alex-1732414.jpg);
   background-repeat: no-repeat;
@@ -12,7 +15,7 @@
   z-index: -1;
   display: inline-block;
   width: 100%;
-  min-height: 600px;
+  min-height: 640px;
 }
 main {
   display: block;
@@ -196,9 +199,9 @@ label {
 }
 /*Main Area*/
 .row {
+  background-color: #fff;
   position: relative;
   padding: 0px;
-  max-width: 970px;
   height: auto;
   margin: 0 auto;
   caret-color: transparent;
@@ -248,7 +251,7 @@ label {
 #footer {
   position: relative;
   display: block;
-  width: 102.2%;
+  width: 100%;
   height: auto;
   background-color: #fff;
   border-top: 1px solid #dbdbdb;
@@ -343,6 +346,7 @@ label {
   display: inline-block;
   margin-right: 10px;
 }
+
 #right-copyright-footer ul li:last-of-type {
   margin-right: 0;
 }
@@ -364,10 +368,12 @@ label {
 }
 #right-copyright-footer ul li a {
   text-decoration: none;
+  color: grey;
 }
 #right-copyright-footer i {
   float: right;
   margin-left: 10px;
+  color: grey;
 }
 /* Registration Form */
 #registration input:not(#submit) {
