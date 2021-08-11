@@ -16,7 +16,7 @@ require("dotenv").config();
 
 const app = express();
 
-const HTTP_PORT = process.env.PORT || 3000;
+const HTTP_PORT = process.env.PORT || 5000;
 
 function onHttpStart() {
   console.log("Express http server listening on: " + HTTP_PORT);
