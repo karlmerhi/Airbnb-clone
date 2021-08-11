@@ -12,7 +12,7 @@
   z-index: -1;
   display: inline-block;
   width: 100%;
-  min-height: 600px;
+  min-height: 640px;
 }
 /*Navigation Bar*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
@@ -259,6 +259,9 @@ main {
 }
 #right-copyright-footer ul {
   float: left;
+}
+#right-copyright-footer a {
+  color: grey;
 }
 #right-copyright-footer ul li {
   display: inline-block;
