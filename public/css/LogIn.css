@@ -254,6 +254,7 @@ main {
   letter-spacing: 0.2px;
 }
 #right-copyright-footer {
+  color:grey;
   float: right;
 }
 #right-copyright-footer ul {

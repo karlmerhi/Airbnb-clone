@@ -20,9 +20,6 @@ body {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
-#right-copyright-footer * {
-  color: rgb(194, 181, 181);
-}
 nav {
   background: transparent;
   padding: 10px 10px 10px 10px;
@@ -418,13 +415,25 @@ h5 {
 .external-links-holder ul li a {
   text-decoration: none;
 }
-
 #copyright-footer {
   margin-top: 10px;
   margin-bottom: 15px;
 }
 #left-copyright-footer {
   float: left;
+}
+.external-links-holder * {
+  margin: 0;
+  padding: 0;
+  color: grey;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+#right-copyright-footer * {
+  color: grey;
+}
+#left-copyright-footer * {
+  color: grey;
 }
 #left-copyright-footer span {
   margin-left: 10px;

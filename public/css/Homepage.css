@@ -244,9 +244,9 @@ label {
 .row * {
   margin: 0;
   padding: 0;
-  color: #ff5a5f;
+  color: grey;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
 }
 #footer {
   position: relative;
@@ -367,4 +367,13 @@ label {
 #right-copyright-footer i {
   float: right;
   margin-left: 10px;
+}
+#video {
+  margin: auto;
+  padding: 50px;
+  text-align: center;
+  width: 50%;
+}
+#image {
+  width: 100%;
 }
