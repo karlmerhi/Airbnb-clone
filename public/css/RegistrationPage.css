@@ -3,6 +3,17 @@
   clear: both;
   display: table;
 }
+.bg {
+  background: url(/public/images/pexels-alex-1732414.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  z-index: -1;
+  display: inline-block;
+  width: 100%;
+  min-height: 600px;
+}
 main {
   display: block;
 }
@@ -186,7 +197,7 @@ label {
 /*Main Area*/
 .row {
   position: relative;
-  padding: 0 15px;
+  padding: 0px;
   max-width: 970px;
   height: auto;
   margin: 0 auto;
@@ -237,7 +248,7 @@ label {
 #footer {
   position: relative;
   display: block;
-  width: 100%;
+  width: 102.2%;
   height: auto;
   background-color: #fff;
   border-top: 1px solid #dbdbdb;
@@ -286,13 +297,13 @@ label {
 }
 .external-links-holder:link {
   display: inline-block;
-  color: #767676;
+  color: grey;
   font-size: 15px;
   font-weight: 400;
   margin-bottom: 3px;
 }
 .external-links-holder ul li a:visited {
-  color: #767676;
+  color: grey;
 }
 .external-links-holder ul li a:hover {
   text-decoration: underline;
