@@ -21,12 +21,12 @@ The Live Demo Web App Link: https://web322-airbnb-clone.herokuapp.com/
 
 ### Features
 
-# Admin accounts can create listings 
-# Website and App forgot password
-# Sign up for an account
-# View rooms in different cities
-# Responsive design
-# Login/logout
-#Deploy backend and frontend
+1. Admin accounts can create listings 
+2. Website and App forgot password
+3. Sign up for an account
+4. View rooms in different cities
+5. Responsive design
+6. Login/logout
+7. Deploy backend and frontend
 
-# Yet to be implemented is searching for rooms by date and location
+#### Yet to be implemented is searching for rooms by date and location
